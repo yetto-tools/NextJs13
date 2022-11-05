@@ -4,15 +4,17 @@
 }
 .header {
 /* From https://css.glass */
-  background: #ffffff61;
+  background: #9bdbf668;
   box-shadow: 0 4px 30px #0000000d;
   backdrop-filter: blur(5.2px);
   -webkit-backdrop-filter: blur(5.2px);
-  border: 1px solid #ffffff5c;
-
+  border: 0.0625rem solid #7ef1ef93;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: sticky;
   top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar_item{
