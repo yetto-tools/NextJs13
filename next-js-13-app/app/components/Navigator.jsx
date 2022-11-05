@@ -12,7 +12,7 @@ const links = [
   },
   {
     label: 'Post',
-    route: '/post',
+    route: '/posts',
   },
 ];
 
