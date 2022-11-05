@@ -1,0 +1,41 @@
+.posts{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+  justify-content: space-around;
+  align-items: center;
+  margin: 3% 0% 3% 0%;
+  padding-bottom: 3%;
+}
+
+.post{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  gap: 8px;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2.5rem;
+  margin-top: 3rem;
+  width: 50%;
+  border: 0.0625rem solid #0fc5d641;
+}
+
+.post_body{
+  width: 100%;
+}
+.post_footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.link {
+  text-decoration: none;
+  color: #09f;
+}
+.link:hover {
+  text-decoration: underline;
+}
