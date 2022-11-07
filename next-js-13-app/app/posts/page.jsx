@@ -1,4 +1,4 @@
-import { LikeButton } from './LikeButton';
+import { LikeButton } from '../components/LikeButton';
 import style from './style.module.css';
 import Link from 'next/link';
 
